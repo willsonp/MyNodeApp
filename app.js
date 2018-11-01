@@ -1,7 +1,6 @@
 function saludos(name){
     console.log("Saludos. :"+name);
 }
-saludos("Willson Perez");
 
 function dia (num){
     switch(num){
@@ -76,3 +75,4 @@ function mes (num){
 console.log(dia(7));
 console.log(mes(5));
 console.log(dia(9));
+saludos("Willson Perez");
