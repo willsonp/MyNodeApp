@@ -42,16 +42,18 @@
 
         <script>
             var cuerpo=document.getElementById("cuerpo");
-            var colorWeb=prompt("Introcuve un color. Azul,Rojo,Verde");
-            if(colorWeb=="Azul"){
+            var colorWeb=prompt("Introcuve un color. Azul,Rojo,Verde").toLowerCase();
+            if(colorWeb=="azul"){
                 cuerpo.style.color="blue";
-            }else if(colorWeb=="Rojo"){
+            }else if(colorWeb=="rojo"){
                 cuerpo.style.color="red";                
-            }else if(colorWeb=="Verde"){
+            }else if(colorWeb=="verde"){
                 cuerpo.style.color="green";
             }else{
                 alert("Color NO Contemplado");
             }
+        
 
         </script>
+        
 </html>
